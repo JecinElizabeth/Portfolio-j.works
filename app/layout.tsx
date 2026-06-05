@@ -12,17 +12,25 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Jecin Elizabeth Rajesh | CS Engineer',
   description: 'Computer Science Engineering student building intelligent systems that put people first. Passionate about AI, data analytics, and user-centric solutions.',
-  generator: 'v0.app',
   openGraph: {
     type: 'website',
     title: 'Jecin Elizabeth Rajesh | CS Engineer',
     description: 'Computer Science Engineering student building intelligent systems that put people first.',
     url: 'https://jecinrajesh.com',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Jecin Elizabeth Rajesh | CS Engineer',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Jecin Elizabeth Rajesh | CS Engineer',
     description: 'Computer Science Engineering student building intelligent systems that put people first.',
+    images: ['/og-image.png'],
   },
   icons: {
     icon: '/favicon.png',
