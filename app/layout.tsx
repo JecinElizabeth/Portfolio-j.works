@@ -10,16 +10,18 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://portfolio-j-works.vercel.app'),
   title: 'Jecin Elizabeth Rajesh | CS Engineer',
   description: 'Computer Science Engineering student building intelligent systems that put people first. Passionate about AI, data analytics, and user-centric solutions.',
   openGraph: {
     type: 'website',
     title: 'Jecin Elizabeth Rajesh | CS Engineer',
     description: 'Computer Science Engineering student building intelligent systems that put people first.',
-    url: 'https://jecinrajesh.com',
+    url: 'https://portfolio-j-works.vercel.app',
+    siteName: 'Jecin Elizabeth Rajesh',
     images: [
       {
-        url: '/og-image.png',
+        url: 'https://portfolio-j-works.vercel.app/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Jecin Elizabeth Rajesh | CS Engineer',
@@ -30,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Jecin Elizabeth Rajesh | CS Engineer',
     description: 'Computer Science Engineering student building intelligent systems that put people first.',
-    images: ['/og-image.png'],
+    images: ['https://portfolio-j-works.vercel.app/og-image.png'],
   },
   icons: {
     icon: '/favicon.png',
