@@ -35,7 +35,11 @@ export const metadata: Metadata = {
     images: ['https://portfolio-j-works.vercel.app/og-image.png'],
   },
   icons: {
-    icon: '/favicon.png',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.png', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
     apple: '/favicon.png',
   },
 }
